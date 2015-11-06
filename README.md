@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/l/jrating.svg?style=flat-square)](https://www.npmjs.com/package/jrating)
 [![npm](https://img.shields.io/npm/dt/jrating.svg?style=flat-square)](https://www.npmjs.com/package/jrating)
 
-评分UI组件
+Rating UI component
 
 ## Introduction
 
