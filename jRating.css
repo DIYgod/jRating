@@ -1,0 +1,32 @@
+.jRating {
+    cursor: default;
+}
+
+.jRating-star {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.jRating-star.full {
+    background-image: url("img/star-full.svg");
+}
+
+.jRating-star.half {
+    background-image: url("img/star-half.svg");
+}
+
+.jRating-star.empty {
+    background-image: url("img/star-empty.svg");
+}
+
+.jRating-star:first-child {
+    margin-left: 0;
+}
+
+.jRating-number {
+    color: red;
+    margin-left: 11px;
+    font-size: 10px;
+}

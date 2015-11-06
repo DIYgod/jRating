@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jRating</title>
+    <link rel="stylesheet" href="../jRating.css">
+</head>
+<body>
+    <span class="jRating" id="jRating1">
+        <span class="jRating-star" index="0"></span>
+        <span class="jRating-star" index="1"></span>
+        <span class="jRating-star" index="2"></span>
+        <span class="jRating-star" index="3"></span>
+        <span class="jRating-star" index="4"></span>
+        <span class="jRating-number"></span>
+    </span>
+    <br>
+    <span class="jRating" id="jRating2">
+        <span class="jRating-star" index="0"></span>
+        <span class="jRating-star" index="1"></span>
+        <span class="jRating-star" index="2"></span>
+        <span class="jRating-star" index="3"></span>
+        <span class="jRating-star" index="4"></span>
+        <span class="jRating-number"></span>
+    </span>
+    <br>
+    <span class="jRating" id="jRating3">
+        <span class="jRating-star" index="0"></span>
+        <span class="jRating-star" index="1"></span>
+        <span class="jRating-star" index="2"></span>
+        <span class="jRating-star" index="3"></span>
+        <span class="jRating-star" index="4"></span>
+        <span class="jRating-number"></span>
+    </span>
+    <script src="../jRating.js"></script>
+    <script>
+        new JRating(document.getElementById('jRating1'), 4.5, false);
+        new JRating(document.getElementById('jRating2'), 3.5, true);
+        new JRating(document.getElementById('jRating3'), 2.5, true);
+    </script>
+</body>
+</html>
