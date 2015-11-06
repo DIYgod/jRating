@@ -1,9 +1,9 @@
 # jRating
 
-[![npm](https://img.shields.io/npm/v/jrating.svg)](https://www.npmjs.com/package/jrating?style=flat-square)
-[![npm](https://img.shields.io/npm/l/jrating.svg)](https://www.npmjs.com/package/jrating?style=flat-square)
-[![npm](https://img.shields.io/npm/dt/jrating.svg)](https://www.npmjs.com/package/jrating?style=flat-square)
-[![GitHub issues](https://img.shields.io/github/issues/DIYgod/jRating.svg)](https://github.com/DIYgod/jRating/issues?style=flat-square)
+[![npm](https://img.shields.io/npm/v/jrating.svg?style=flat-square)](https://www.npmjs.com/package/jrating)
+[![npm](https://img.shields.io/npm/l/jrating.svg?style=flat-square)](https://www.npmjs.com/package/jrating)
+[![npm](https://img.shields.io/npm/dt/jrating.svg?style=flat-square)](https://www.npmjs.com/package/jrating)
+[![GitHub issues](https://img.shields.io/github/issues/DIYgod/jRating.svg?style=flat-square)](https://github.com/DIYgod/jRating/issues)
 
 评分UI组件
 
