@@ -6,6 +6,10 @@
 
 评分UI组件
 
+## Introduction
+
+[Demo](https://www.anotherhome.net/file/jRating)
+
 ## Install
 
 ```
