@@ -37,6 +37,7 @@ JRating.prototype.repaint = function () {
             this.star[i].className = 'jRating-star empty';
         }
     }
+    this.ele.getElementsByClassName('jRating-number')[0].innerHTML = this.value;
 };
 
 // 移出鼠标将value改回原始值
