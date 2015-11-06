@@ -1,30 +1,35 @@
 # jRating
 
-[![npm](https://img.shields.io/npm/v/jrating.svg)](https://www.npmjs.com/package/jrating)
-[![npm](https://img.shields.io/npm/l/jrating.svg)](https://www.npmjs.com/package/jrating)
-[![npm](https://img.shields.io/npm/dt/jrating.svg)](https://www.npmjs.com/package/jrating)
-[![GitHub issues](https://img.shields.io/github/issues/DIYgod/jRating.svg)](https://github.com/DIYgod/jRating/issues)
+[![npm](https://img.shields.io/npm/v/jrating.svg)](https://www.npmjs.com/package/jrating?style=flat-square)
+[![npm](https://img.shields.io/npm/l/jrating.svg)](https://www.npmjs.com/package/jrating?style=flat-square)
+[![npm](https://img.shields.io/npm/dt/jrating.svg)](https://www.npmjs.com/package/jrating?style=flat-square)
+[![GitHub issues](https://img.shields.io/github/issues/DIYgod/jRating.svg)](https://github.com/DIYgod/jRating/issues?style=flat-square)
 
 评分UI组件
 
-## How it works
+## Install
+
+```
+npm install jrating
+```
+
+## Usage
 
 The following HTML structure is used for the carrousel:
 
-
 ```
-    <link rel="stylesheet" href="jRating.css">
-    <!-- ... -->
-    <span class="jRating" id="jRating1">
-        <span class="jRating-star" index="0"></span>
-        <span class="jRating-star" index="1"></span>
-        <span class="jRating-star" index="2"></span>
-        <span class="jRating-star" index="3"></span>
-        <span class="jRating-star" index="4"></span>
-        <span class="jRating-number"></span>
-    </span>
-    <!-- ... -->
-    <script src="jRating.js"></script>
+<link rel="stylesheet" href="jRating.css">
+<!-- ... -->
+<span class="jRating" id="jRating1">
+    <span class="jRating-star" index="0"></span>
+    <span class="jRating-star" index="1"></span>
+    <span class="jRating-star" index="2"></span>
+    <span class="jRating-star" index="3"></span>
+    <span class="jRating-star" index="4"></span>
+    <span class="jRating-number"></span>
+</span>
+<!-- ... -->
+<script src="jRating.js"></script>
 ```
 
 And this is how the jRating is initialized:
@@ -32,8 +37,6 @@ And this is how the jRating is initialized:
 ```
 new JRating(document.getElementById('jRating1'), 4.5, true);
 ```
-
-## Options
 
 The following options are available:
 
@@ -47,6 +50,7 @@ value	 : 4.5,
 // editable
 editable : true
 ```
+
 
 ## LICENSE
 
